@@ -1,7 +1,7 @@
 body {
   margin: 40px auto;
   width: 80%;
-  background-image: url("https://images.unsplash.com/photo-1529234774845-b90fd07f1d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eSUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-image: url("https://wallpapersmug.com/large/efb915/clouds-sky-anime.jpg");
   background-color: #cccccc;
  }
 div.section-1{
@@ -13,31 +13,33 @@ div.section-1{
 div.section-2{
   margin: 40px auto;
   width: 70%;
-  color:black;
   text-align: center;
-  background-color: beige;
+  /* background-color: pink; */
   border: 1px solid;
   padding: 10px;
+  opacity: 1.0;
   box-shadow: 5px 10px;
+  color:grey;
+  font-family: 'Ubuntu', sans-serif;
 }
 img.picture-1{
   height: 210px;
   width: 20%;
   border-radius: 50%;
-  background-color: beige;
+  background-color: lightsteelblue;
   border: 0.5px solid;
   padding: 5px;
   box-shadow: 1px 2px;
 }
 h2{
-  color: black;
+  color: beige;
   text-align: center;
 }
 .footer{
-  background-color: lightblue;
+  /* background-color: purple; */
   padding: 5px;
   text-align: center;
-  color: black;
+  color: pink;
   margin-top: 80px;
   margin-right: 220px;
   margin-left:220px;
@@ -45,17 +47,20 @@ h2{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px;
+  font-family: 'Ubuntu', sans-serif;
+  opacity: 1.0;
 }
 .title {
-  background-color: beige;
   margin: 30px;
   text-align: center;
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px;
+  font-family: 'Ubuntu', sans-serif;
+  opacity: 1.0;
 }
 a:hover{
-  color:blue;
+  color:pink;
 }
 .container{
   opacity: 1.0;
@@ -78,8 +83,9 @@ a:hover{
   }
 }
 .card2{
-  background-color: lightblue;
-  margin: 30px
+  /* background-color: purple; */
+  margin: 30px;
+  opacity: 1.0;
 }
 .list-inline{
   list-style: none;
@@ -87,4 +93,13 @@ a:hover{
 }
 .list-inline > li {
   display: inline-block;
+}
+h1{
+  color:pink;
+}
+p{
+  color:beige
+}
+.para{
+  color:black
 }
